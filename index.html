@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jimmy Jayant">
+        <meta name="keywords" content="html5, css3, vanilla js, copy text to clipboard website">
+        <meta name="description" content="This website is a Copy Text to Clipboard project.">
+        <title>
+            Copy Text to Clipboard 
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                JavaScript Copy Text to Clipboard 
+            </div>
+
+            <div class="content">
+                <div class="text1">
+                    <textarea id="text">Input Text Here</textarea>
+                    <br>
+                    <button type="button" id="copybutton" onclick="copytext()">Copy</button>
+                    <button type="button" id="resetbtn1" onclick="resetfirsttext()">Reset</button>
+                </div>
+
+                <div class="text2">
+                    <textarea id="pastetextfromclipboard">Text from Clipboard to be pasted here.........</textarea>
+                    <br>
+                    <button type="button" id="pastebutton" onclick="pastetext()">Paste</button>
+                    <button type="button" id="resetbtn2" onclick="resetsecondtext()">Reset</button>
+                </div>                
+            </div>
+        </div>
+    </body>
+</html>
